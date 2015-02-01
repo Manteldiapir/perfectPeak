@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY>
+    <MODULE>Grid Calculator</MODULE>
+    <OPTION type="text" id="FORMULA" name="Formula">ifelse(gt(a,938),1,-99999)</OPTION>
+    <OPTION type="text" id="NAME" name="Name">Calculation</OPTION>
+    <OPTION type="boolean" id="FNAME" name="Take Formula">FALSE</OPTION>
+    <OPTION type="boolean" id="USE_NODATA" name="Use NoData">FALSE</OPTION>
+    <OPTION type="choice" id="TYPE" name="Data Type">7</OPTION>
+    <DATA_LIST type="grid_list" id="GRIDS" name="Grids">
+      <DATA>
+        <FILE>mp_dem.sgrd</FILE>
+      </DATA>
+    </DATA_LIST>
+  </HISTORY>
+  <SOURCE>
+    <FILE>run_level.sgrd</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>PROJCS["MGI_Austria_GK_West",GEOGCS["GCS_MGI",DATUM["D_MGI",SPHEROID["Bessel_1841",6377397.155,299.1528128]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",10.33333333333333],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",-5000000],UNIT["Meter",1]]
+</OGC_WKT>
+      <PROJ4>+proj=tmerc +a=6377397.155000 +b=6356078.962818 +lat_0=0 +lon_0=10.33333333333333 +k_0=1 +x_0=0 +y_0=-5000000 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
